@@ -170,12 +170,33 @@ a:visited {
 
 }
 
-.artic-1, .artic-2{
+.artic {
 
 float:left;
-width: 60%;
+width: 100%;
 text-align: center;
-margin: 0 20%;
+padding: 0 20%;
+box-sizing: border-box; 
+}
+
+
+.artc1 {
+
+float: left;
+width: 100%;
+
+}
+
+.artc2 {
+
+	float: left;
+    width: 100%;
+    padding: 20px 0;
+    border-top: 1px solid #dadada;
+    border-bottom: 1px solid #dadada;
+    background-color: #f5f5f5;
+}
+
 
 }
 
@@ -198,6 +219,25 @@ max-width: 100%;
 text-align: center;
 
 }
+
+.subtit-1 > h1{
+
+font-size: 0.9rem;
+
+
+}
+
+
+.subtit-2 > h2 {
+
+font-size: 0.6rem;
+
+
+}
+
+
+
+
 
 footer	{
 
