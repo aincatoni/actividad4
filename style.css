@@ -1,6 +1,7 @@
 html {
 
-height: 100%
+height: 100%;
+font-size: 1rem;
 
 }
 
@@ -63,12 +64,22 @@ list-style: none;
 }
 
 #titular-principal {
-color: #fff;
-float: left;
-width: 100%;
-margin: 0 auto;
-text-align: center;
-margin: 0 20px;
+
+	text-align: center;
+	float: left;
+	width: 100%;
+	margin: 20px auto;
+}
+
+header h1 {
+
+	font-weight: lighter;
+	line-height: 3rem;
+	color: #fff;
+	margin: 0 auto;
+
+	
+	
 }
 
 
@@ -124,6 +135,16 @@ text-align: center;
 	background-color: #489048;
 }
 
+.bjd {
+
+	float: left;
+	width: 100%;
+	color: #fff;
+	text-align: center;
+	font-size: 0.7rem;
+	line-height: 0.8rem;
+	margin: 10px 0;
+}
 
 a {
   text-decoration: none;
@@ -141,9 +162,23 @@ a:visited {
 }
 /* contenido  */
 
-.contenedor {
+.contenido {
+
+	float: left;
+	width: 100%;
+	margin: 0 auto;
 
 }
+
+.artic-1, .artic-2{
+
+float:left;
+width: 60%;
+text-align: center;
+margin: 0 20%;
+
+}
+
 .caja
 {
 
@@ -162,6 +197,13 @@ max-width: 100%;
 
 text-align: center;
 
+}
+
+footer	{
+
+	float: left;
+	width: 100%;
+	margin: 0 auto;
 }
 
 .pie-1 {
