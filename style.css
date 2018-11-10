@@ -273,13 +273,33 @@ margin: 0 0 0 0;
 .contact {
 
 	float: left;
-    width: 12%;
-    margin-left: 30%;
+    width: 25%;
+    margin-left: 25%;
     box-sizing: border-box;
     text-align: left;
     line-height: 0rem;
 
 }
+
+.contact a {
+
+  text-decoration: none;
+  color: blue;
+}
+
+.contact a:active {
+  color: blue;
+
+}
+.contact a:hover{
+  color: #56a200;
+}
+
+.contact a:visited {
+  color: #56a200;
+}
+
+
 
 
 .subs {
@@ -288,7 +308,33 @@ margin: 0 0 0 0;
     width: 35%;
     margin-right: 15%;
     box-sizing: border-box;
-    text-align: left;
+
 
 }
 
+
+
+.subs > h3 {
+
+    text-align: left
+}
+
+.subs > p {
+
+    text-align: left
+} 
+
+.artc2 h4 {
+
+	font-size: 0.8rem;
+    font-weight: normal;
+
+}
+
+input {
+
+    float: left;
+    margin: 10px 0 0 0;
+    width: 40%;
+    text-align: left;
+}
