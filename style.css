@@ -162,7 +162,7 @@ a:visited {
 }
 /* contenido  */
 
-.contenido {
+#contenido {
 
 	float: left;
 	width: 100%;
@@ -175,7 +175,7 @@ a:visited {
 float:left;
 width: 100%;
 text-align: center;
-padding: 0 20%;
+padding: 0 30%;
 box-sizing: border-box; 
 }
 
@@ -255,9 +255,8 @@ footer	{
 .pie-1 {
 
 text-align: center;
-height: 18vh;
 padding: 30px;
-
+overflow: hidden;
 }
 
 .pie-2 {
@@ -299,8 +298,23 @@ margin: 0 0 0 0;
   color: #56a200;
 }
 
+.contact a {
+	float: left;
+	width: 100%;
+}
 
+.contact h4, .contact h5, .contact h6 {
 
+	float: left;
+	box-sizing: border-box;
+	padding: 0;
+	width: 100%;
+}
+
+.correo {
+	float: left;
+	width: 100%;
+}
 
 .subs {
 
